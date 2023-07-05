@@ -1,0 +1,93 @@
+body {
+    box-sizing: border-box;
+    background: black;
+    font-size: 14px;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+#main-section {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#right-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: -10px;
+    display: inline-block;
+    width: 100%;
+}
+#left-section {
+    width: 100%;
+    display: inline-block;
+}
+#image-1 {
+    display: none;
+}
+#image-2 {
+    width: 100%;
+}
+h1 {
+    font-family: 'Fraunces', serif;
+    margin-bottom: 20px;
+}
+p {
+    font-family: 'Montserrat', serif;
+    border-spacing: 10em;
+    color: #6c7289;
+}
+#price {
+    color: #3c8067;
+
+}
+#discount {
+    font-size: 0.8rem;
+    color: #6c7289;
+    vertical-align: text-top;
+    padding-left: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #3c8067;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Montserrat', serif;
+    cursor: pointer;
+
+}
+i {
+    margin-right: 5px;
+}
+@media (min-width: 850px) {
+    body {
+        font-size: 20px;
+    }
+    #main-section {
+        width: 800px;
+        height: 500px;
+
+    }
+    #left-section {
+        width: 50%;
+        height: 100%;
+    }
+    #right-section {
+        vertical-align: top;
+        width: 50%;
+        height: 105%;
+    }
+    #image-1 {
+        display: block;
+        width: 100%;
+    }
+    #image-2 {
+        display: none
+    }
+}
